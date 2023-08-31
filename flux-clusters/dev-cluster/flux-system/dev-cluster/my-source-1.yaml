@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: my-source-1
+  namespace: flux-system
+spec:
+  interval: 1m0s
+  ref:
+    branch: my-branch-1
+  url: https://github.com/JeanBrov/block-buster
