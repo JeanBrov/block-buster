@@ -13,4 +13,4 @@ spec:
   sourceRef:
     kind: GitRepository
     name: my-source-2
-  targetNamespace: default
+  targetNamespace: my-namespace
