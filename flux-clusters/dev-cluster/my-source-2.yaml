@@ -6,5 +6,5 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    branch: my-branch-1
+    branch: my-branch-2
   url: https://github.com/JeanBrov/block-buster
